@@ -8,8 +8,8 @@ import dao.EstadoCivilDao;
 import dao.TipoIdentificacionDao;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
-import model.EstadoCivil;
-import model.TipoIdentificacion;
+import domain.EstadoCivil;
+import domain.TipoIdentificacion;
 
 /**
  *

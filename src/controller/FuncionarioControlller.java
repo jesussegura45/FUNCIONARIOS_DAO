@@ -7,7 +7,7 @@ package controller;
 import dao.FuncionarioDao;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
-import model.Funcionario;
+import domain.Funcionario;
 
 /**
  *

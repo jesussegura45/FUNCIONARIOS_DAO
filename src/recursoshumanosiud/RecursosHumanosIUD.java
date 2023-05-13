@@ -4,7 +4,7 @@
  */
 package recursoshumanosiud;
 
-import model.Conexion;
+import domain.Conexion;
 
 /**
  *

@@ -2,16 +2,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package model;
+package domain;
 
 /**
  *
  * @author Super
  */
-public class EstadoFormacion {
+public class TipoIdentificacion {
     private int id;
     private String nombre;
     private String descripcion;
+
+    public TipoIdentificacion() {
+    }
+
+    public TipoIdentificacion(int id) {
+        this.id = id;
+    }
+    
 
     public int getId() {
         return id;

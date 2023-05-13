@@ -7,7 +7,7 @@ package controller;
 import dao.TipoIdentificacionDao;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
-import model.TipoIdentificacion;
+import domain.TipoIdentificacion;
 
 /**
  *

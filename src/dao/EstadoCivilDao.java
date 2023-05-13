@@ -5,7 +5,7 @@
 package dao;
 
 import java.util.List;
-import model.EstadoCivil;
+import domain.EstadoCivil;
 
 /**
  *

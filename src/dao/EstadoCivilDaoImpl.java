@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-import model.Conexion;
-import model.EstadoCivil;
+import domain.Conexion;
+import domain.EstadoCivil;
 import utis.Mensajes;
 
 /**

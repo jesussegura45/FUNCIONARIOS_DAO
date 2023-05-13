@@ -10,8 +10,8 @@ import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import model.Conexion;
-import model.Funcionario;
+import domain.Conexion;
+import domain.Funcionario;
 import java.sql.PreparedStatement;
 import utis.Mensajes;
 

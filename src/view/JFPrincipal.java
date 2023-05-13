@@ -16,9 +16,9 @@ import dao.TipoIdentificacionDaoImpl;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import static java.time.temporal.TemporalQueries.localDate;
-import model.EstadoCivil;
-import model.Funcionario;
-import model.TipoIdentificacion;
+import domain.EstadoCivil;
+import domain.Funcionario;
+import domain.TipoIdentificacion;
 import utis.Mensajes;
 import java.sql.Date;
 import java.text.ParseException;
@@ -161,6 +161,8 @@ public class JFPrincipal extends javax.swing.JFrame {
         jTADireccion.setRows(5);
         jScrollPane1.setViewportView(jTADireccion);
 
+        jBGuardar.setBackground(new java.awt.Color(0, 0, 255));
+        jBGuardar.setForeground(new java.awt.Color(255, 255, 255));
         jBGuardar.setText("GUARDAR");
         jBGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,6 +170,8 @@ public class JFPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jBNuevo.setBackground(new java.awt.Color(0, 255, 0));
+        jBNuevo.setForeground(new java.awt.Color(255, 255, 255));
         jBNuevo.setText("NUEVO");
         jBNuevo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +199,8 @@ public class JFPrincipal extends javax.swing.JFrame {
 
         jLabel10.setText("Tipo Doc:");
 
+        jBActualizar.setBackground(new java.awt.Color(0, 0, 255));
+        jBActualizar.setForeground(new java.awt.Color(255, 255, 255));
         jBActualizar.setText("ACTUALIZAR");
         jBActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -343,6 +349,7 @@ public class JFPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jBSalir.setBackground(new java.awt.Color(255, 204, 0));
         jBSalir.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jBSalir.setForeground(new java.awt.Color(255, 0, 0));
         jBSalir.setText("SALIR");
@@ -352,6 +359,8 @@ public class JFPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jBRefrescar.setBackground(new java.awt.Color(0, 255, 0));
+        jBRefrescar.setForeground(new java.awt.Color(255, 255, 255));
         jBRefrescar.setText("REFRESCAR");
         jBRefrescar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -359,6 +368,8 @@ public class JFPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jBBorrar.setBackground(new java.awt.Color(255, 0, 0));
+        jBBorrar.setForeground(new java.awt.Color(255, 255, 255));
         jBBorrar.setText("BORRAR");
         jBBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -366,6 +377,8 @@ public class JFPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jBEditar.setBackground(new java.awt.Color(51, 51, 255));
+        jBEditar.setForeground(new java.awt.Color(255, 255, 255));
         jBEditar.setText("EDITAR");
         jBEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
